@@ -7,6 +7,8 @@ Install following packages:
 sudo dnf install container-tools
 sudo dnf install git
 
+## Run adb 23ai image in podman with no permanent storage
+
 
 Sudo podman run -d \
 -p 1521:1522 \
